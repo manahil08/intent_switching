@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 }
-    public void onClick(View v) {
-        Intent intent;
-        switch (v.getId()) {
+
             case
                     R.id.buttonOpenSecodActivity:
                 intent = new
